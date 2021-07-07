@@ -4,6 +4,10 @@
     font-family: Century;
 }
 
+html {
+    background-image: linear-gradient( to bottom, rgb(75, 102, 114), white)
+}
+
 .intro {
     background-color: rgb(109, 109, 100);
     color: rgb(26, 21, 21);
@@ -11,44 +15,55 @@
     line-height: 2.5rem;
 }
 
-img {
-    width: 600px;
-    height: 355px;
-    padding-bottom: 10px;
-    background-position: center;
-    background-size: cover;
-}
-
 .image {
-    background-color: rgb(230, 222, 210);
-    padding-right: 0%;
+    width: 750px;
+    overflow: hidden;
+    padding-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image1 {
+    position: relative;
+    width: 6800px;
+    animation: ani 25s;
+}
+
+.image1 img {
+    float: left;
+    height: 500px;
+}
+
+@keyframes ani {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: -780px;
+    }
+    40% {
+        left: -2100px;
+    }
+    60% {
+        left: -3200px;
+    }
+    80% {
+        left: -4200px;
+    }
+    100% {
+        left: 20px;
+    }
+}
+
+.quotes {
+    line-height: 1.8;
+    padding-left: 10%;
     padding-top: 5%;
-}
-
-.pannel {
-    padding-top: 20px;
-    float: right;
-    margin: auto;
-    width: 700px;
-}
-
-ul li {
-    display: inline-block;
-    margin: top 20px;
-    padding-bottom: 20px;
-}
-
-ul li a {
-    font-style: oblique;
-    text-decoration: none;
-    color: rgb(39, 36, 31);
-    padding: 10px 20px;
-    border: 1px solid black;
-    transition: 0.6s ease;
-    font-size: 30px;
-}
-
-ul li a:hover {
-    background-color: rgb(177, 197, 87);
-    color: rgb(80, 15, 221);
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20%;
+    text-align: left;
 }

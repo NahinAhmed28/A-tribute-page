@@ -1,0 +1,30 @@
+.pannel {
+    padding-top: 20px;
+    float: right;
+    padding-left: 100%;
+    width: 800px;
+}
+
+ul li {
+    display: inline-block;
+    margin: top 20px;
+    padding-bottom: 20px;
+}
+
+ul li a {
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(39, 36, 31);
+    padding: 10px 20px;
+    border: 1px solid rgb(86, 39, 161);
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+ul li a:hover {
+    background-color: rgb(117, 217, 230);
+    opacity: .78;
+    color: rgb(47, 4, 138);
+}
