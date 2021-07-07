@@ -18,7 +18,7 @@ html {
 .image {
     width: 750px;
     overflow: hidden;
-    padding-left: 15%;
+    padding-left: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,7 +31,7 @@ html {
 
 .image1 img {
     float: left;
-    height: 500px;
+    height: 400px;
 }
 
 @keyframes ani {
@@ -47,11 +47,8 @@ html {
     40% {
         left: -2100px;
     }
-    60% {
-        left: -3200px;
-    }
     80% {
-        left: -4200px;
+        left: -3200px;
     }
     100% {
         left: 20px;
@@ -61,7 +58,7 @@ html {
 .quotes {
     line-height: 1.8;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
     font-style: italic;
     font-size: 20px;
     margin-bottom: 20%;
