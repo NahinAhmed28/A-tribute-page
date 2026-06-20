@@ -1,31 +1,30 @@
 # A Tribute Page
 
-A Tribute Page is a front-end web page project. It is intended for practicing semantic HTML, CSS styling, page layout, and simple responsive design.
+A Tribute Page is a static front-end project for presenting a tribute-style content page.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/A-tribute-page`
-- Default branch: `main`
-- Visibility: public
-- Project type: static front-end page
-- Main focus: tribute-page layout and presentation
+- Tribute page layout and content sections
+- Responsive HTML/CSS structure
+- Image and biography/story presentation
+- Simple static deployment path
+
+## Modules
+
+- Header module: title and introduction
+- Content module: biography, timeline, or story sections
+- Media module: image assets and captions
+- Styling module: layout, typography, and responsive CSS
+
+## System Architecture
+
+The project uses a static-site architecture. The browser renders HTML, CSS, and assets directly. There is no application server or database. The page can be hosted through any static hosting provider.
 
 ## Getting Started
-
-Clone the repository and open the main HTML file in a browser.
 
 ```bash
 git clone https://github.com/NahinAhmed28/A-tribute-page.git
 cd A-tribute-page
 ```
 
-If the repository includes a package manifest, install dependencies and run the development command.
-
-```bash
-npm install
-npm run dev
-```
-
-## Notes
-
-Add screenshots, live-demo URLs, and browser support details as the page evolves.
+Open the main HTML file in a browser.
